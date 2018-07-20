@@ -1,0 +1,17 @@
+{
+  "name": "rrrrrrrr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && yarn && yarn run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "password-generator": "^2.2.0"
+  },
+  "proxy": "http://localhost:5000"
+}
